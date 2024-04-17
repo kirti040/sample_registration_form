@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body bgcolor="#323a2b">
+        <div class="container">
+        <form>
+            <h1 align="center"> STUDENT REGISTRATION FORM</h1>
+            <br><br>
+            <tr><td>Name:</td>
+                <td><input type="text" id="lname" placeholder="Enter full Name"></td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Father's Name:</td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Mother's Name:</td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="text" size="10" placeholder="017xxxxxxx"></td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" id="email" placeholder="sample@example.com"></td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" id="male" name="gender">Male</td>
+                <td><input type="radio" id="female" name="gender">Female</td>
+                <td><input type="radio" id="other" name="gender">Other</td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Date Of Birth:</td>
+                <td><input type="date"></td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" id="address" placeholder="House- Road- "></td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Blood Group:</td>
+                <td><select>
+                    <option value="select">select</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select></td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Department:</td>
+                <td><input type="radio" id="CSE" name="department" value="CSE">CSE</td>
+                <td><input type="radio" id="EEE" name="department" value="EEE">EEE</td>
+                <td><input type="radio" id="ECE" name="department" value="ECE">BBA</td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Course:</td>
+                <td><input type="checkbox" id="C" name="course" value="C">C</td>
+                <td><input type="checkbox" id="C++" name="course" value="C++">C++</td>
+                <td><input type="checkbox" id="Java" name="course" value="Java">Java</td>
+                <td><input type="checkbox" id="AI" name="course" value="AI">AI</td>
+                <td><input type="checkbox" id="ML" name="course" value="ML">ML</td>
+                <td><input type="checkbox" id="Robotics" name="course" value="Robotics">Robotics</td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Photo:</td>
+                <td><input type="file" id="myfile" name="myfile"></td>
+            </tr>
+            <br><br>
+            <tr>
+                <td><input type="submit" value="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </form>
+        </div>
+    </body>
+</html>
